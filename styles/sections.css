@@ -20,5 +20,15 @@
       position: absolute;
       top: 50%;
     }
+
+    figcaption {
+      bottom: 0;
+      padding: 24px;
+      position: absolute;
+
+      h2 {
+        margin-top: 8px;
+      }
+    }
   }
 }
