@@ -1,0 +1,53 @@
+.text-ellipsis {
+  box-orient: vertical;
+  -webkit-box-orient: vertical;
+  display: block;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+}
+
+#featured {
+  & .card h2 {
+    height: 60px;
+    line-clamp: 3;
+    -webkit-line-clamp: 3;
+  }
+
+  & > .card h2 {
+    height: 96px;
+  }
+}
+
+#weekly {
+  & figure p {
+    height: 66px;
+    line-clamp: 3;
+    -webkit-line-clamp: 3;
+  }
+}
+
+#ai {
+  & article > div {
+    & h3 {
+      height: 44px;
+      line-clamp: 2;
+      -webkit-line-clamp: 2;
+    }
+
+    & p {
+      height: 88px;
+      line-clamp: 4;
+      -webkit-line-clamp: 4;
+    }
+  }
+}
+
+#more {
+  & article div:nth-child(2) h3 {
+    height: 46px;
+    line-clamp: 2;
+    -webkit-line-clamp: 2;
+  }
+}

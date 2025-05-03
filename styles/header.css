@@ -18,8 +18,33 @@
 }
 
 #secondary {
+  align-items: center;
   border: solid 1px var(--stroke-color);
   border-inline: none;
+  gap: 32px;
   justify-content: space-between;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
   padding-block: 14px;
+  white-space: nowrap;
+}
+
+#secondary::-webkit-scrollbar {
+  height: 0;
+  width: 0;
+}
+
+@media (width < 768px) {
+  #primary {
+    padding-block: 16px;
+
+    & div:nth-child(1) strong, & div:nth-child(3) strong {
+      display: none;
+    }
+
+    & div:nth-child(2) img {
+      height: 20px;
+      width: 100px;
+    }
+  }
 }

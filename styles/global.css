@@ -72,3 +72,20 @@ main {
   padding: 4px 8px;
   text-transform: uppercase;
 }
+
+@media (width < 768px) {
+  .container {
+    padding-inline: 16px;
+  }
+
+  main {
+    grid-template-areas: 
+    "featured"
+    "weekly"
+    "ai"
+    "aside";
+    grid-template-columns: 100%;
+    margin-top: 16px;
+    row-gap: 32px;
+  }
+}

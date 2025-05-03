@@ -2,3 +2,4 @@
 @import url(utility.css);
 @import url(header.css);
 @import url(sections.css);
+@import url(text-ellipsis.css) screen and (-webkit-min-device-pixel-ratio: 0); /* Este estilo só aplicado caso o navegador trabalhe com a WebKit Engine */
