@@ -6,7 +6,7 @@
 
 <br>
 
-<p align="justify">Este projeto consiste em uma página web desenvolvida utilizando HTML e CSS. Esta página exibe um portal de notícias de tecnologia, separados por diversas seções como: destaques, notícias da semana, inteligência artificial, etc.</p> 
+<p align="justify">Este projeto consiste em uma página web desenvolvida utilizando HTML e CSS. Esta página exibe um portal de notícias de tecnologia dividido em diversas seções, como por exemplo: destaques, notícias da semana, inteligência artificial, etc.</p> 
 
 <p align="justify">Os seguintes tópicos são trabalhados nesta aplicação: </p>
 
